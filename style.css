@@ -1,0 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.image{
+    width: 8rem;
+    height: 2rem;
+ 
+}
+
+.btn{
+    background-color: #F15A29;
+    color: white;
+    width: 6rem;
+}
+.navbar-nav{
+    padding-right: 7rem;
+}
+.nav-link
+{
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.heading
+{
+    margin-top: 13rem;
+}
+.container-fluid
+{
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  background-attachment: fixed;
+}
+.card:hover
+{
+    box-shadow: -2px 1.5px 14.5px -1px #ddd;
+}
+.project
+{
+    background-color:#FEF2EE ;
+    height: 100vh;
+}
+/* for small devices */
+@media (max-width: 575.98px) { 
+    .heading
+{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10rem;
+} 
+}
+
+@media (max-width: 767.98px) { 
+    
+ }
+
+
